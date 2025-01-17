@@ -10,7 +10,8 @@ Enshrouded is an immersive survival action RPG set in a vast, voxel-based open w
 
 ## Prerequisites
 
-- Ubuntu 22.04 (While these steps are written for Ubuntu, they should also work if you wanted to set up an Enshrouded server on other Linux distributions such as Debian.)
+- ✅ Ubuntu 22.04 (While these steps are written for Ubuntu, they should also work if you wanted to set up an Enshrouded server on other Linux distributions such as Debian.)
+- ✅ Ubuntu 24.04 (tested)
 - sudo privileges
 - ufw settings (Please note that the Enshrouded dedicated server uses ports 15636 and 15637 by default. You must port forward both ports to allow outside access to your server. Additionally, if you are using a firewall such as UFW you will need to allow these ports.)
 
