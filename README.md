@@ -1,5 +1,5 @@
 [![Repository](https://img.shields.io/badge/Repository-enshrouded__server__ubuntu-blue?style=flat&logo=github)](https://github.com/bonsaibauer/enshrouded_server_ubuntu)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/License-MIT-blue)
 ![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-4CAF50?style=flat&logo=ubuntu&logoColor=white)
 ![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04%20(tested)-4CAF50?style=flat&logo=ubuntu&logoColor=white)
 
