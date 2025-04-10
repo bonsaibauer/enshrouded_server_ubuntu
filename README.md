@@ -126,8 +126,7 @@ We can start the Enshrouded server on our Ubuntu device using the command below.
 wine64 ~/enshroudedserver/enshrouded_server.exe
 ```
 Thanks to [dingodeluxe](https://github.com/dingodeluxe):  
-After the Wine update, you might need to use `wine` instead of `wine64`:
-
+After auto wine updates, you might need to use `wine` instead of `wine64`:
 ```bash
 wine ~/enshroudedserver/enshrouded_server.exe
 ```
