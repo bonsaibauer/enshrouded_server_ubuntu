@@ -1,3 +1,7 @@
+[![Repository](https://img.shields.io/badge/Repository-enshrouded__server__ubuntu-blue?style=flat&logo=github)](https://github.com/bonsaibauer/enshrouded_server_ubuntu)
+![Ubuntu 22.04](https://img.shields.io/badge/Ubuntu-22.04-4CAF50?style=flat&logo=ubuntu&logoColor=white)
+![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04%20(tested)-4CAF50?style=flat&logo=ubuntu&logoColor=white)
+
 # Setting Up an Enshrouded Dedicated Server on Ubuntu: A Beginner's Guide
 
 Embark on an adventure in the mystical world of Embervale with your own dedicated Enshrouded server. This guide will walk you through setting up a dedicated server for Enshrouded on Ubuntu, ensuring you and your friends can enjoy this survival action RPG to its fullest.
@@ -193,3 +197,8 @@ sudo systemctl stop enshrouded
 ## Conclusion
 
 By following this guide, you've set up your own Enshrouded dedicated server on Ubuntu, ready to host your adventures in the mystical world of Embervale. Gather your friends and start your journey in this captivating survival action RPG.
+
+## Buy Me A Coffee
+If this project has helped you in any way, do buy me a coffee so I can continue to build more of such projects in the future and share them with the community!
+
+<a href="https://buymeacoffee.com/bonsaibauer" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
