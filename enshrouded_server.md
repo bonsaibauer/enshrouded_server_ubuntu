@@ -73,9 +73,13 @@ This document includes:
 | **dayTimeDuration**              | Length of day (ns)                                       | 1800000000000        | 120B       | 3600B      | e.g., 30 mins                                                |
 | **nightTimeDuration**            | Length of night (ns)                                     | 720000000000         | 120B       | 3600B      | e.g., 12 mins                                                |
 
+*Note:* Time values are in nanoseconds. Divide by 60,000,000,000 to convert to minutes.
+
 ---
 
 ## User Groups & Permissions
+
+Enshrouded supports three predefined user groups: **Admin**, **Friend**, and **Guest**. Each group has distinct permissions, and hosts can assign passwords to control access.
 
 | Group Name | Password          | Can Kick/Ban | Access Inventories | Edit Base | Extend Base | Reserved Slots |
 |------------|-------------------|--------------|--------------------|-----------|-------------|----------------|
@@ -83,8 +87,13 @@ This document includes:
 | **Friend** | FriendXXXXXXXX    | ❌           | ✅                 | ✅        | ❌          | 0              |
 | **Guest**  | GuestXXXXXXXX     | ❌           | ❌                 | ❌        | ❌          | 0              |
 
----
+### Role Descriptions
 
-*Note:* Time values are in nanoseconds. Divide by 60,000,000,000 to convert to minutes.
+- **Admin**: Full administrative privileges, including the ability to kick or ban players, access all inventories, and modify or extend the base.
+- **Friend**: Trusted players who can access inventories and edit the base but cannot kick/ban players or extend the base.
+- **Guest**: Limited access; cannot kick/ban players, access inventories, or modify the base.
+
+
+---
 
 For official documentation, see: [Enshrouded Server Gameplay Settings](https://enshrouded.zendesk.com/hc/en-us/articles/20453241249821-Server-Gameplay-Settings)
