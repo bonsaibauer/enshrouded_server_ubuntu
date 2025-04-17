@@ -11,7 +11,7 @@ Embark on an adventure in the mystical world of Embervale with your own dedicate
 
 Enshrouded is an immersive survival action RPG set in a vast, voxel-based open world. Players must navigate through dangerous terrains, craft items for survival, and battle against various creatures. The game supports cooperative play for up to 16 players, allowing for a shared adventure in the magical world of Embervale.
 
-## Preparing Your Environment
+# 0. Preparing Your Environment
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ Install essential packages for setting up your server.
 sudo apt install software-properties-common lsb-release wget
 ```
 
-## Wine Installation
+# 1. Wine Installation
 
 We'll use Wine to run the Enshrouded server application, designed for Windows, on Ubuntu.
 
@@ -93,9 +93,9 @@ sudo add-apt-repository multiverse
 ```
 
 
-## SteamCMD and Enshrouded Server Installation
+# 2. SteamCMD and Enshrouded Server Installation
 
-### SteamCMD Setup
+## SteamCMD Setup
 
 Install SteamCMD, required to download the Enshrouded dedicated server.
 
@@ -121,7 +121,7 @@ Use SteamCMD to install the Enshrouded dedicated server.
 /usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/enshrouded/enshroudedserver +login anonymous +app_update 2278520 +quit
 ```
 
-## Running and Managing Your Server
+# 3. Running and Managing Your Server
 
 ### Starting the Server
 
@@ -142,7 +142,7 @@ Once your server has started, the following two lines should appear within the t
 [Session] finished transition from 'Lobby' to 'Host_Online' (current='Host_Online')!
 ```
 
-### Configuring the Enshrouded Dedicated Server on Ubuntu
+# 4. Configuring the Enshrouded Dedicated Server on Ubuntu
 
 After running the Enshrouded Dedicated Server on Ubuntu, it will automatically create a configuration file.
 
@@ -153,7 +153,21 @@ After running the Enshrouded Dedicated Server on Ubuntu, it will automatically c
 nano ~/enshroudedserver/enshrouded_server.json
 ```
 
-### Creating a Service
+---
+
+### General Server Settings
+
+| Setting            | Description                                | Example / Default Value | Options / Notes          |
+|--------------------|--------------------------------------------|--------------------------|---------------------------|
+| **name**           | Name of the server                         | "Enshrouded Server"      | Any string                |
+| **saveDirectory**  | Directory where savegames are stored       | "./savegame"             | File path                 |
+| **logDirectory**   | Directory for log files                    | "./logs"                 | File path                 |
+| **ip**             | Server IP binding                          | "0.0.0.0"                | Server ip adress          |
+| ...                | ...                                        | ...                      | ...                       |
+
+... [View full server settings here](https://github.com/bonsaibauer/enshrouded_server_ubuntu/blob/main/enshrouded_server.md)
+
+# 5. Creating a Service
 A service file helps ensure that your server restarts if it crashes and also means it will automatically start when your server powers on.
 
 ```bash
