@@ -79,6 +79,21 @@ This document includes:
 
 ## User Groups & Permissions
 
+### User Group Fields
+
+| Field                | Description                                                           | Type    | Example Value     | Options / Notes                      |
+|----------------------|-----------------------------------------------------------------------|---------|--------------------|--------------------------------------|
+| **name**             | Name of the user group                                                | String  | "Admin"            | Arbitrary group name                 |
+| **password**         | Password required to join the group                                   | String  | "AdminXXXXXXXX"    | Keep secure                          |
+| **canKickBan**       | Permission to kick/ban players                                        | Boolean | true               | true / false                         |
+| **canAccessInventories** | Permission to access other players' inventories                 | Boolean | true               | true / false                         |
+| **canEditBase**      | Permission to edit any base                                           | Boolean | true               | true / false                         |
+| **canExtendBase**    | Permission to extend base territory                                   | Boolean | true               | true / false                         |
+| **reservedSlots**    | Reserved player slots for that group                                  | Int     | 0                  | Number of reserved slots             |
+
+---
+
+### Defined User Groups
 Enshrouded supports three predefined user groups: **Admin**, **Friend**, and **Guest**. Each group has distinct permissions, and hosts can assign passwords to control access.
 
 | Group Name | Password          | Can Kick/Ban | Access Inventories | Edit Base | Extend Base | Reserved Slots |
