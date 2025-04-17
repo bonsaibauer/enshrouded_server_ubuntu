@@ -5,6 +5,7 @@ This document includes:
 - General server settings
 - Gameplay settings (ordered as in the config file)
 - User group permissions
+- [Example enshrouded_server.json](https://github.com/bonsaibauer/enshrouded_server_ubuntu/blob/main/enshrouded_server.json)
 
 ---
 
@@ -15,7 +16,7 @@ This document includes:
 | **name**           | Name of the server                         | "Enshrouded Server"      | Any string                |
 | **saveDirectory**  | Directory where savegames are stored       | "./savegame"             | File path                 |
 | **logDirectory**   | Directory for log files                    | "./logs"                 | File path                 |
-| **ip**             | Server IP binding                          | "0.0.0.0"                | 0.0.0.0 for all interfaces|
+| **ip**             | Server IP binding                          | "0.0.0.0"                | Server ip adress          |
 | **queryPort**      | Port used for server queries               | 15637                    | Integer                   |
 | **slotCount**      | Max number of players                      | 16                       | Integer                   |
 | **voiceChatMode**  | Voice chat type                            | Proximity                | Proximity / Global        |
