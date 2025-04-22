@@ -11,6 +11,9 @@ Embark on an adventure in the mystical world of Embervale with your own dedicate
 
 Enshrouded is an immersive survival action RPG set in a vast, voxel-based open world. Players must navigate through dangerous terrains, craft items for survival, and battle against various creatures. The game supports cooperative play for up to 16 players, allowing for a shared adventure in the magical world of Embervale.
 
+![Enshrouded Ubuntu Server Setup](enshrouded_ubuntu.png)
+<sub>Image generated with the help of [ChatGPT](https://openai.com/chatgpt)</sub>
+
 # 0. Preparing Your Environment
 
 ## Prerequisites
