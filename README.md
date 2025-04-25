@@ -5,6 +5,8 @@
 
 [![Report Problem](https://img.shields.io/badge/Report-new_Problem_or_Issue-critical?style=flat&logo=github)](https://github.com/bonsaibauer/enshrouded_server_ubuntu/issues/new)
 [![Discussions](https://img.shields.io/badge/Discussions-Share_Ideas-blue?style=flat&logo=github)](https://github.com/bonsaibauer/enshrouded_server_ubuntu/discussions/new/choose)
+![GitHub Stars](https://img.shields.io/github/stars/bonsaibauer/enshrouded_server_ubuntu?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/bonsaibauer/enshrouded_server_ubuntu?style=social)
 
 # Setting Up an Enshrouded Dedicated Server on Ubuntu: A Beginner's Guide
 
