@@ -7,6 +7,10 @@
 ![GitHub Stars](https://img.shields.io/github/stars/bonsaibauer/enshrouded_server_ubuntu?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/bonsaibauer/enshrouded_server_ubuntu?style=social)
 
+<a href="https://github.com/bonsaibauer/enshrouded_server_docker" target="_blank" style="display: inline-block; padding: 16px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 8px; font-size: 18px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  🐳 Use Docker? Go to bonsaibauer/enshrouded_server_docker →
+</a>
+
 # Setting Up an Enshrouded Dedicated Server on Ubuntu: A Beginner's Guide
 
 Embark on an adventure in the mystical world of Embervale with your own dedicated Enshrouded server. This guide will walk you through setting up a dedicated server for Enshrouded on Ubuntu, ensuring you and your friends can enjoy this survival action RPG to its fullest.
