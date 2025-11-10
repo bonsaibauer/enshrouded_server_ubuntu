@@ -20,8 +20,17 @@ Embark on an adventure in the mystical world of Embervale with your own dedicate
 
 Enshrouded is an immersive survival action RPG set in a vast, voxel-based open world. Players must navigate through dangerous terrains, craft items for survival, and battle against various creatures. The game supports cooperative play for up to 16 players, allowing for a shared adventure in the magical world of Embervale.
 
-![Enshrouded Ubuntu Server Setup](enshrouded_ubuntu.png)
+![Enshrouded Ubuntu Server Setup](images/enshrouded_ubuntu.png)
 <sub>Image generated with the help of [ChatGPT](https://openai.com/chatgpt)</sub>
+
+# Update v1.4 – Wake of the Water
+
+![Wake of the Water Update](images/update_wake_of_water.jpeg)
+
+- Dynamically simulated water, water tools, and flooding safeguards bring bases to life.
+- Veilwater Basin biome, new quests, enemies, and gear raise the progression cap to level 45.
+- Fishing, greatswords, rebalanced loot, and workstation force requirements deepen crafting/combat.
+- Dedicated servers now expose tags, a visitor role with terraforming limits, and improved admin tools.
 
 # 0. Preparing Your Environment
 
@@ -177,7 +186,7 @@ nano ~/enshroudedserver/enshrouded_server.json
 | **ip**             | Server IP binding                          | "0.0.0.0"                | Server ip adress          |
 | ...                | ...                                        | ...                      | ...                       |
 
-... [View full server settings here](https://github.com/bonsaibauer/enshrouded_server_ubuntu/blob/main/enshrouded_server.md)
+... [View full server settings here](https://github.com/bonsaibauer/enshrouded_server_ubuntu/blob/main/docs/enshrouded_server.md)
 
 # 5. Creating a Service
 A service file helps ensure that your server restarts if it crashes and also means it will automatically start when your server powers on.
@@ -223,7 +232,7 @@ sudo systemctl stop enshrouded
 # 6. Scheduled Restart for Enshrouded Server
 The **Scheduled Restart** setup is designed to **automatically shut down and restart** the Enshrouded server at a specific time during the night. This helps improve server performance by clearing potential memory leaks, closing open processes, and ensuring that any minor issues or resource locking are resolved. 
 
-**Note**: This process is experimental, and no guarantees are made regarding its effectiveness in all cases: [Scheduled Restart - Enshrouded Server](https://github.com/bonsaibauer/enshrouded_server_ubuntu/tree/main/scheduled_restart)
+**Note**: This process is experimental, and no guarantees are made regarding its effectiveness in all cases: [Scheduled Restart - Enshrouded Server](https://github.com/bonsaibauer/enshrouded_server_ubuntu/tree/main/ressources/scheduled_restart)
 
 # Conclusion
 
