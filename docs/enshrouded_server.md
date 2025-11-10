@@ -135,10 +135,10 @@ Enshrouded ships with four predefined user groups—**Admin**, **Friend**, **Gue
 
 | Group Name | Password          | Can Kick/Ban | Access Inventories | Can Edit World | Edit Base | Extend Base | Reserved Slots |
 |------------|-------------------|--------------|--------------------|----------------|-----------|-------------|----------------|
-| **Admin**  | AdminXXXXXXXX     | Yes          | Yes                | Yes            | Yes       | Yes         | 0              |
-| **Friend** | FriendXXXXXXXX    | No           | Yes                | Yes            | Yes       | No          | 0              |
-| **Guest**  | GuestXXXXXXXX     | No           | No                 | Yes            | No        | No          | 0              |
-| **Visitor**| VisitorXXXXXXXX   | No           | No                 | No             | No        | No          | 0              |
+| **Admin**  | AdminXXXXXXXX     | ✅           | ✅                 | ✅             | ✅        | ✅          | 0              |
+| **Friend** | FriendXXXXXXXX    | ❌           | ✅                 | ✅             | ✅        | ❌          | 0              |
+| **Guest**  | GuestXXXXXXXX     | ❌           | ❌                 | ✅             | ❌        | ❌          | 0              |
+| **Visitor**| VisitorXXXXXXXX   | ❌           | ❌                 | ❌             | ❌        | ❌          | 0              |
 
 ### Role Descriptions
 
