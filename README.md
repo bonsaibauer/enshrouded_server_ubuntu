@@ -232,7 +232,7 @@ sudo systemctl stop enshrouded
 # 6. Scheduled Restart for Enshrouded Server
 The **Scheduled Restart** setup is designed to **automatically shut down and restart** the Enshrouded server at a specific time during the night. This helps improve server performance by clearing potential memory leaks, closing open processes, and ensuring that any minor issues or resource locking are resolved. 
 
-**Note**: This process is experimental, and no guarantees are made regarding its effectiveness in all cases: [Scheduled Restart - Enshrouded Server](https://github.com/bonsaibauer/enshrouded_server_ubuntu/tree/main/docs/scheduled_restart)
+**Note**: This process is experimental, and no guarantees are made regarding its effectiveness in all cases: [Scheduled Restart - Enshrouded Server](https://github.com/bonsaibauer/enshrouded_server_ubuntu/tree/main/ressources/scheduled_restart)
 
 # Conclusion
 
