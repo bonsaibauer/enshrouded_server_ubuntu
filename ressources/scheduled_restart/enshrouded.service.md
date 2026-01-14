@@ -25,7 +25,7 @@ User=enshrouded
 Group=enshrouded
 WorkingDirectory=/home/enshrouded/
 ExecStartPre=/usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/enshrouded/enshroudedserver +login anonymous +app_update 2278520 +quit
-ExecStart=/usr/bin/wine64 /home/enshrouded/enshroudedserver/enshrouded_server.exe
+ExecStart=/usr/bin/wine /home/enshrouded/enshroudedserver/enshrouded_server.exe
 Restart=on-failure
 
 [Install]

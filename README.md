@@ -146,13 +146,10 @@ Use SteamCMD to install the Enshrouded dedicated server.
 
 ### Starting the Server
 
-We can start the Enshrouded server on our Ubuntu device using the command below. You will notice that we must use “wine64” at the start to ensure we launch the server using Wine.
+We can start the Enshrouded server on our Ubuntu device using the command below. You will notice that we must use “wine” at the start to ensure we launch the server using Wine.
 
-```bash
-wine64 ~/enshroudedserver/enshrouded_server.exe
-```
 Thanks to [dingodeluxe](https://github.com/dingodeluxe):  
-After auto wine updates, you might need to use `wine` instead of `wine64`:
+After auto wine updates, you need to use `wine` instead of `wine64`:
 ```bash
 wine ~/enshroudedserver/enshrouded_server.exe
 ```
@@ -208,7 +205,7 @@ User=enshrouded
 Group=enshrouded
 WorkingDirectory=/home/enshrouded/
 ExecStartPre=/usr/games/steamcmd +@sSteamCmdForcePlatformType windows +force_install_dir /home/enshrouded/enshroudedserver +login anonymous +app_update 2278520 +quit
-ExecStart=/usr/bin/wine64 /home/enshrouded/enshroudedserver/enshrouded_server.exe
+ExecStart=/usr/bin/wine /home/enshrouded/enshroudedserver/enshrouded_server.exe
 Restart=always
 
 [Install]
